@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Shelter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Shelter Logo">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#adopt">Adopt</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <img src="poloski.png" alt="more">
+        </div>
+    </header>
+    <main>
+        <section id="text-side">
+            <div class="text-content">
+                <h1>Find a Friend:</h1>
+                <p>Give a Pet a Loving Home!</p>
+            </div>
+            
+        </section>  
+        <section id="img-side">
+            <div class="image-content">
+                <img src="pets.jpg" alt="Pets ready for adoption">
+            </div>
+        </section>
+    </main>
+
+    <video autoplay muted loop playsinline class="background-video" style="margin-bottom: 20rem;">
+        <source src="video.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+    </video>
+
+    <adopt class="adopt">
+        <h1 id="adopt" style="margin-top: 15rem;margin-bottom: 5rem;">Available Dogs for Adoption</h1>
+        <div class="dog-list">
+            <div class="dog-card">
+                <img src="dog1.jpg" alt="Dog 1">
+                <div class="dog-info">
+                    <h2>Buddy</h2>
+                    <p>Age: 2 years</p>
+                    <p>Breed: Labrador</p>
+                    <p>Personality: Friendly, Playful</p>
+                </div>
+            </div>
+
+            <div class="dog-card">
+                <img src="dog2.jpg" alt="Dog 2">
+                <div class="dog-info">
+                    <h2>Bella</h2>
+                    <p>Age: 3 years</p>
+                    <p>Breed: Beagle</p>
+                    <p>Personality: Energetic, Curious</p>
+                </div>
+            </div>
+
+            <div class="dog-card">
+                <img src="dog3.jpg" alt="Dog 3">
+                <div class="dog-info">
+                    <h2>Max</h2>
+                    <p>Age: 1 year</p>
+                    <p>Breed: German Shepherd</p>
+                    <p>Personality: Loyal, Smart</p>
+                </div>
+            </div>
+        </div>    
+    </adopt>
+
+<info id="info" class="info-section">
+    <div class="info-content">
+        <h1>About Our Shelter</h1>
+        <p>
+            Our animal shelter is dedicated to providing safe and loving homes for animals in need. 
+            We take care of abandoned, stray, or surrendered animals, ensuring they receive the best possible care until they find a forever home.
+        </p>
+        <p>
+            At the heart of our mission is the belief that every animal deserves a chance at a happy life. We strive to create a community of responsible pet owners and advocate for the importance of adopting rather than buying pets.
+        </p>
+        <h2>Why Adopt?</h2>
+        <p>
+            Adopting a pet from a shelter means giving an animal a second chance at life. Many animals in shelters are healthy, loving, and just waiting for a family to call their own.
+        </p>
+        <ul>
+            <li>By adopting, you help reduce overpopulation in shelters.</li>
+            <li>You offer a home to an animal that might otherwise be euthanized.</li>
+            <li>Adopted pets tend to be incredibly loyal and grateful for the love they receive.</li>
+        </ul>
+        <h2>How We Operate</h2>
+        <p>
+            We are a non-profit organization run by volunteers and funded by donations. All of the animals in our care are given necessary medical treatment, vaccinations, and microchipping. Our goal is to ensure every pet is healthy and ready for adoption.
+        </p>
+        <p>
+            Our shelter also offers educational programs about responsible pet ownership, proper care for animals, and the benefits of spaying and neutering pets to prevent overpopulation.
+        </p>
+    </div>
+</info>
+
+<section id="pricing" class="pricing-section">
+    <h1>Our Services</h1>
+    <div class="pricing-cards">
+        <div class="pricing-card">
+            <h2>Basic Adoption</h2>
+            <p class="price">$50 <span>/mo</span></p>
+            <ul>
+                <li>Basic Care for a month</li>
+                <li>Medical checkup</li>
+                <li>Food & shelter</li>
+            </ul>
+            <button>Adopt Now</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Premium Adoption</h2>
+            <p class="price">$100 <span>/mo</span></p>
+            <ul>
+                <li>Includes vaccinations</li>
+                <li>Food, shelter & medical care</li>
+                <li>Monthly checkups</li>
+            </ul>
+            <button>Adopt Now</button>
+        </div>
+        <div class="pricing-card">
+            <h2>VIP Adoption</h2>
+            <p class="price">$150 <span>/mo</span></p>
+            <ul>
+                <li>All basic services</li>
+                <li>Personal training</li>
+                <li>Extended medical care</li>
+            </ul>
+            <button>Adopt Now</button>
+        </div>
+    </div>
+</section>
+
+<contact id="contact">
+    <section class="contact-section">
+        <div class="contact-content">
+          <h1>Contact Us</h1>
+          <div class="contact-details">
+            <p><strong>Email:</strong> info@petshelter.com</p>
+            <p><strong>Phone:</strong> +38 050 123 4567</p>
+            <p><strong>Address:</strong> 123 Pet Shelter St., Kyiv, Ukraine</p>
+          </div>
+          <div class="geo-location">
+            <h2 style="margin-top: 2rem;">Find Us Here</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=... (add your Google Maps embed link here) ..."
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+          <div class="donation-section">
+            <h2>Support Us</h2>
+            <p>Help us continue our mission to find loving homes for every pet. You can donate via the link below:</p>
+            <a href="#" class="donate-button">Donate Now</a>
+          </div>
+        </div>
+        <form action="/submit" method="POST" class="feedback-form">
+            <fieldset>
+                <legend>Зворотний зв'язок</legend>
+        
+                <!-- Ім'я -->
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+        
+                <!-- Електронна пошта -->
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+        
+                <!-- Дата -->
+                <label for="date">Дата:</label>
+                <input type="date" id="date" name="date">
+        
+                <!-- Повідомлення -->
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+        
+                <!-- Підтвердження умов -->
+                <label>
+                    <input type="checkbox" name="terms" required> Погоджуюсь з умовами
+                </label>
+        
+                <!-- Кнопка Відправити -->
+                <button type="submit">Відправити</button>
+            </fieldset>
+        </form>
+      </section>
+</contact>
+
+    <section class="background-image-section">
+        <div class="background-content">
+            <h1>Thank You for Visiting Our Shelter!</h1>
+            <p>We look forward to helping you find a loving pet!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Animal Shelter | All rights reserved</p>
+    </footer>
+
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navLinks = document.querySelector('.nav-links');
+        
+        burgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Додає/видаляє клас 'active'
+            burgerMenu.classList.toggle('toggle'); // Додає анімацію до бургеру
+        });
+    </script>
+</body>
+</html>
